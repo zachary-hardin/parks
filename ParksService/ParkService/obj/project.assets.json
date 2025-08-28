@@ -2853,11 +2853,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParksService/ParksService.csproj",
-      "projectName": "ParksService",
-      "projectPath": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParksService/ParksService.csproj",
+      "projectUniqueName": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParkService/ParkService.csproj",
+      "projectName": "ParkService",
+      "projectPath": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParkService/ParkService.csproj",
       "packagesPath": "/Users/zacharyhardin/.nuget/packages/",
-      "outputPath": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParksService/obj/",
+      "outputPath": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParkService/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/zacharyhardin/.nuget/NuGet/NuGet.Config"

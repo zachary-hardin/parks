@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParksService", "ParksService\ParksService.csproj", "{9A07F458-9D74-4E5E-AF84-10BF0E3FD27B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ParkService", "ParkService\ParkService.csproj", "{9A07F458-9D74-4E5E-AF84-10BF0E3FD27B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
