@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using ParksService.Data;
+using ParksService.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 var cs = builder.Configuration.GetConnectionString("ParksDb");
 
 builder.Services.AddDbContext<ParksDbContext>(opts => opts.UseNpgsql(cs));
+
+
+builder.Services.AddScoped<IParkRepository, ParkRepository>();
 
 
 
@@ -42,6 +46,12 @@ app.MapGet("/weatherforecast", () =>
         return forecast;
     })
     .WithName("GetWeatherForecast");
+
+app.MapGet("/get-parks", async (IParkRepository parkRepository) =>
+{
+    var parks = await parkRepository.GetAllAsync();
+    return Results.Ok(parks);
+});
 
 app.Run();
 
