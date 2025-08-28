@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "knBPSBU9K4o=",
+  "success": true,
+  "projectFilePath": "/Users/zacharyhardin/workspace/personal/parks/ParksService/ParksService/ParksService.csproj",
+  "expectedPackageFiles": [
+    "/Users/zacharyhardin/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/zacharyhardin/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}

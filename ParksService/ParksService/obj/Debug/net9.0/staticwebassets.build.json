@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4k3i5qSOuGVlQzqgctVmk4yYZABCck/0v0+QhN5TjTQ=",
+  "Source": "ParksService",
+  "BasePath": "_content/ParksService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
