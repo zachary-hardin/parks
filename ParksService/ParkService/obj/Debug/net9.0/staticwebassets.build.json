@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "4k3i5qSOuGVlQzqgctVmk4yYZABCck/0v0+QhN5TjTQ=",
-  "Source": "ParksService",
-  "BasePath": "_content/ParksService",
+  "Hash": "vdciq4Js1C5gk2RlSO5NF1WHu3/VQ7gG7egvUQ+qf0o=",
+  "Source": "ParkService",
+  "BasePath": "_content/ParkService",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
