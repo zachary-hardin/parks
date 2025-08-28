@@ -1,4 +1,14 @@
+using Microsoft.EntityFrameworkCore;
+using ParksService.Data;
+
 var builder = WebApplication.CreateBuilder(args);
+
+// Pull the connection string
+var cs = builder.Configuration.GetConnectionString("ParksDb");
+
+builder.Services.AddDbContext<ParksDbContext>(opts => opts.UseNpgsql(cs));
+
+
 
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
